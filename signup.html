@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SignUp</title>
+</head>
+<body>
+     <div class="container register">
+        <form action="" id="signupForm">
+            <h1>SignUp</h1>
+            <div>
+                <input id="name" type="text" placeholder="Name">
+            </div>
+            <div>
+                <input id="email" type="email" placeholder="Email">
+            </div>
+            <div>
+                <input id="password" type="password" placeholder="Password">
+            </div>
+            <div>
+                <button class="btn" id="signup-btn">SignUp</button>
+                <p>Already have an account? <a href="login.html">Login</a> </p>
+            </div>
+        </form>
+    </div>
+    <p id="signupStatus"></p>
+
+
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="signup.js"></script>
+
+</body>
+</html>
