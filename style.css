@@ -89,11 +89,11 @@ form input{
 .toast i {
     margin: 0 20px;
     font-size: 35px;
-    color: green; /* Default success icon color */
+    color: green;
 }
 
 .toast.error i {
-    color: red; /* Error icon color */
+    color: red;
 }
 
 .toast::after {
@@ -103,10 +103,10 @@ form input{
     bottom: 0;
     width: 100%;
     height: 5px;
-    background: green; /* Default success underline */
+    background: green;
     animation: anim 5s linear forwards;
 }
 
 .toast.error::after {
-    background: red; /* Error underline */
+    background: red;
 }
